@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f1424;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+
+.container {
+  display: flex;
+  gap: 30px;
+  padding: 60px;
+  justify-content: center;
+}
+
+
+.sidebar {
+  width: 220px;
+  background: #1c204b;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.profile {
+  background: linear-gradient(180deg, #6f76ff, #5a5fd8);
+  padding: 25px;
+}
+
+.profile img {
+  width: 70px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-bottom: 15px;
+}
+
+.profile p {
+  color: white;
+}
+
+.profile h2 {
+  font-weight: 300;
+}
+
+.duration {
+  padding: 20px;
+}
+
+.duration p {
+  color: darkslateblue;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.duration .week {
+  color: white;
+}
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 220px);
+  gap: 25px;
+}
+
+
+.card {
+  border-radius: 15px;
+  padding-top: 40px;
+  overflow: hidden;
+}
+
+
+.card-content {
+  background: #1c204b;
+  padding: 20px;
+  border-radius: 15px;
+  height: 100%;
+  /* transition: 0.3s; */
+}
+
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: white;
+}
+
+
+.card h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.card p {
+  font-size: 14px;
+  color: white;
+}
+
+
+.work { background: #ff8b64; }
+
+.play { background: #56c2e6; }
+
+.study { background: #ff5c7c; }
+
+.exercise { background: #4acf81; }
+
+.social { background: #7536d3; }
+
+.selfcare { background: #f1c75b; }

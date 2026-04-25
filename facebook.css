@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  padding: 40px 25px;
+  width: 300px;
+  border-radius: 20px;
+  text-align: center;
+
+  /* Shadow similar to your image */
+  box-shadow: 8px 8px 0px black;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Facebook */
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Google */
+.google {
+  background: white;
+  border: 1px solid #ccc;
+}
+
+/* OR text */
+.or {
+  margin: 15px 0;
+  color: #777;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* Sign in button */
+.signin {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 25px;
+  background: #c6ff2f;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Signup text */
+.signup {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup a {
+  color: purple;
+  text-decoration: none;
+}

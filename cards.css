@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f1424;
+  color: white;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 220px;
+  background: #1c204b;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.profile {
+  background: linear-gradient(180deg, #6f76ff, #5a5fd8);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.profile img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.profile h2 {
+  margin: 10px 0;
+}
+
+.menu {
+  padding: 20px;
+}
+
+.menu p {
+  color: #aaa;
+  cursor: pointer;
+}
+
+.menu .active {
+  color: white;
+}
+
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+}
+
+
+.card {
+  padding: 20px;
+  border-radius: 15px;
+  background: #1c204b;
+  position: relative;
+}
+
+.card h1 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+/* COLORS FOR EACH CARD */
+.work { background: #ff8b64; }
+.play { background: #56c2e6; }
+.study { background: #ff5c7c; }
+.exercise { background: #4acf81; }
+.social { background: #7536d3; }
+.selfcare { background: #f1c75b; }
